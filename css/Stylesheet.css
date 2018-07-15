@@ -1,0 +1,81 @@
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 90%;
+    margin: 10px auto;
+    padding: 2%;
+}
+
+
+#main {
+    width: 90%;
+    margin: 10px auto;
+    padding: 2%;
+
+}
+
+header, #main > header,  #left, #left > header, #left > article, #right, #right > header, #right > article {
+    border: 1px solid #000000;
+}
+
+#main > header {
+    width: 90%;
+    margin: 10px auto;
+    padding: 2%;
+
+}
+
+header, #left > header, #right > header {
+        text-align: center;
+}
+
+#left {
+    width: 40%;
+    float: left;
+    margin: 10px auto;
+    padding: 2%;
+
+}
+
+#left > header {
+    width: 90%;
+    margin: 10px auto;
+    padding: 2%;
+
+}
+
+#left > article {
+    width: 40%;
+    margin: 10px auto;
+    padding: 2%;
+}
+
+#right {
+    width: 40%;
+    float: right;
+    margin: 10px auto;
+    padding: 2%
+}
+
+#right > header {
+    width: 90%;
+    margin: 10px auto;
+    padding: 2%;
+}
+
+#right > article {
+    width: 40%;
+    margin: 10px auto;
+    padding: 2%;
+}
+
+footer {
+    width: 90%;
+    clear: both;
+    margin: 10px auto;
+    padding: 2%;
+}
