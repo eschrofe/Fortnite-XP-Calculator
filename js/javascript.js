@@ -67,11 +67,11 @@ $("input")
       $("#Drlvl4").text(DriftLevel4);
       $("#Drlvl5").text(DriftLevel5);
 
-      $("#xpPercentD1").text(xpPercentD1 + "%");
-      $("#xpPercentD2").text(xpPercentD2 + "%");
-      $("#xpPercentD3").text(xpPercentD3 + "%");
-      $("#xpPercentD4").text(xpPercentD4 + "%");
-      $("#xpPercentD5").text(xpPercentD5 + "%");
+      $("#xpPercentD1").text(Math.floor(xpPercentD1) + "%");
+      $("#xpPercentD2").text(Math.floor(xpPercentD2) + "%");
+      $("#xpPercentD3").text(Math.floor(xpPercentD3) + "%");
+      $("#xpPercentD4").text(Math.floor(xpPercentD4) + "%");
+      $("#xpPercentD5").text(Math.floor(xpPercentD5) + "%");
 
       $("#Davg1").text(Math.ceil(DriftLevel1 / timeLeft));
       $("#Davg2").text(Math.ceil(DriftLevel2 / timeLeft));
@@ -132,11 +132,11 @@ $("input")
       $("#Rlvl4").text(RkLevel4);
       $("#Rlvl5").text(RkLevel5);
 
-      $("#xpPercentR1").text(xpPerecentR1 + "%");
-      $("#xpPercentR2").text(xpPerecentR2 + "%");
-      $("#xpPercentR3").text(xpPerecentR3 + "%");
-      $("#xpPercentR4").text(xpPerecentR4 + "%");
-      $("#xpPercentR5").text(xpPerecentR5 + "%");
+      $("#xpPercentR1").text(Math.floor(xpPerecentR1) + "%");
+      $("#xpPercentR2").text(Math.floor(xpPerecentR2) + "%");
+      $("#xpPercentR3").textMath.floor((xpPerecentR3) + "%");
+      $("#xpPercentR4").text(Math.floor(xpPerecentR4) + "%");
+      $("#xpPercentR5").text(Math.floor(xpPerecentR5) + "%");
 
 
       $("#Ravg1").text(Math.ceil(RkLevel1 / timeLeft));
