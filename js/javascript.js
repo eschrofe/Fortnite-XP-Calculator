@@ -134,7 +134,7 @@ $("input")
 
       $("#xpPercentR1").text(Math.floor(xpPerecentR1) + "%");
       $("#xpPercentR2").text(Math.floor(xpPerecentR2) + "%");
-      $("#xpPercentR3").textMath.floor((xpPerecentR3) + "%");
+      $("#xpPercentR3").text(Math.floor(xpPerecentR3) + "%");
       $("#xpPercentR4").text(Math.floor(xpPerecentR4) + "%");
       $("#xpPercentR5").text(Math.floor(xpPerecentR5) + "%");
 
