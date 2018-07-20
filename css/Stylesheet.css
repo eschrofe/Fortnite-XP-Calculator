@@ -8,13 +8,20 @@ header, #main, #main > header, #left > header, footer {
     width: 90%;
 }
 
-header, #main, #main > header, #left, #left > header, #left > article, #right, #right > header, #right > article, footer {
+header, #main, #left, #left > header, #left > article, #right, #right > header, #right > article, footer {
     margin: 10px auto;
     padding: 2%;
 }
 
+#main > header {
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
 header, #main > header,  #left, #left > header, #left > article, #right, #right > header, #right > article {
-    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: 4px 4px 20px 2px #aaa;
 }
 
 header, #left > header, #right > header {
